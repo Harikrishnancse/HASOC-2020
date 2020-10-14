@@ -48,7 +48,7 @@ This notebook contains the code for reading the dataset,preprocessing of comment
 This notebook contains the code for reading the dataset,preprocessing of comments , creating TF_IDF vectors , creating Machine learning models (Naive Bayes , SVM , Decision tree, Random Forest )/ Ensemble model ( Max voting of 4 ML classifiers), training and predicting the labels of the test data for sub-task B.
 
 # 4. DL_Bi-GRU for task-B.ipynb
-This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task A.
+This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task B.
 
 # Results
     -----------------------------------------------------------------------------------
