@@ -38,17 +38,17 @@ This repo contains four IPython Notebooks which are containing the code for deve
  #### 4. DL_Bi-GRU for task-B.ipynb
  
 
-# 1. ML_Ensemble for task-A.ipynb
-This notebook contains the code for reading the dataset,preprocessing of comments , creating TF_IDF vectors , creating Machine learning models (Naive Bayes , SVM , Decision tree, Random Forest )/ Ensemble model ( Max voting of 4 ML classifiers), training and predicting the labels of the test data for sub-task A.
+  ### 1. ML_Ensemble for task-A.ipynb
+  This notebook contains the code for reading the dataset,preprocessing of comments , creating TF_IDF vectors , creating Machine learning models (Naive Bayes , SVM , Decision tree, Random Forest )/ Ensemble model ( Max voting of 4 ML classifiers), training and predicting the labels of the test data for sub-task A.
 
-# 2. DL_LSTM for task-A.ipynb
-This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating LSTM model, training and predicting the labels of the test data for sub-task A.
+  ### 2. DL_LSTM for task-A.ipynb
+  This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating LSTM model, training and predicting the labels of the test data for sub-task A.
 
-# 3. ML_Ensemble for task-B.ipynb
-This notebook contains the code for reading the dataset,preprocessing of comments , creating TF_IDF vectors , creating Machine learning models (Naive Bayes , SVM , Decision tree, Random Forest )/ Ensemble model ( Max voting of 4 ML classifiers), training and predicting the labels of the test data for sub-task B.
+  ### 3. ML_Ensemble for task-B.ipynb
+  This notebook contains the code for reading the dataset,preprocessing of comments , creating TF_IDF vectors , creating Machine learning models (Naive Bayes , SVM , Decision tree, Random Forest )/ Ensemble model ( Max voting of 4 ML classifiers), training and predicting the labels of the test data for sub-task B.
 
-# 4. DL_Bi-GRU for task-B.ipynb
-This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task B.
+  ### 4. DL_Bi-GRU for task-B.ipynb
+  This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task B.
 
 # Results
     -----------------------------------------------------------------------------------
