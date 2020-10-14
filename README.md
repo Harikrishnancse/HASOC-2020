@@ -51,11 +51,11 @@ This notebook contains the code for reading the dataset,preprocessing of comment
 This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task A.
 
 # Results
------------------------------------------------------------------------------------
-|   Sub-Task    |     Classifier      |   Macro F1-score   | Place in leaderboard |
------------------------------------------------------------------------------------
-|      A        |        LSTM         |       0.5002       |          12          |
------------------------------------------------------------------------------------
-|      B        |      Ensemble       |       0.2426       |           9           |
------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------
+    |   Sub-Task    |     Classifier      |   Macro F1-score   | Place in leaderboard |
+    -----------------------------------------------------------------------------------
+    |      A        |        LSTM         |       0.5002       |          12          |
+    -----------------------------------------------------------------------------------
+    |      B        |      Ensemble       |       0.2426       |           9          |
+    -----------------------------------------------------------------------------------
 
