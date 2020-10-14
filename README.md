@@ -8,28 +8,26 @@ The large fraction of hate speech and other offensive and objectionable content 
 HASOC provides a forum and a data challenge for multilingual research on the identification of problematic content. This year, we offer again 2 sub-tasks for each language such as English, German and Hindi, alltogether over 10.000 annotated tweets from Twitter. Participants in this year’s shared task can choose to participate in one or two of the subtasks.
 
 # Tasks
+
 There are two sub-tasks in each of the languages. Below is a brief description of each task.
 
   # Sub-task A: Identifying Hate, offensive and profane content
    This task focus on Hate speech and Offensive language identification offered for English, German, and Hindi. Sub-task A is coarse-grained binary classification in which participating system are required to classify tweets into two classes, namely: Hate and Offensive (HOF) and Non- Hate and offensive (NOT).
    ### 1. NOT : 
-   Non Hate-Offensive - This post does not contain any Hate speech, profane, offensive content.
+    Non Hate-Offensive - This post does not contain any Hate speech, profane, offensive content.
    ### 2. HOF : 
-   Hate and Offensive - This post contains Hate, offensive, and profane content.
+    Hate and Offensive - This post contains Hate, offensive, and profane content.
    
  # Sub-task B: Discrimination between Hate, profane and offensive posts
   This sub-task is a fine-grained classification offered for English, German, and Hindi. Hate-speech and offensive posts from the sub-task A are further classified into three categories:
   ### HATE :
-  #### Hate speech:- Posts under this class contain Hate speech content.
+    Hate speech:- Posts under this class contain Hate speech content.
   ### OFFN :
-  #### Offenive:- Posts under this class contain offensive content.
+    Offenive:- Posts under this class contain offensive content.
   ### PRFN :
-  #### Profane:- These posts contain profane words.
+    Profane:- These posts contain profane words.
 
-# Dataset
-  There are 2 types of datasets for Hate speech and offensive content identification collected from Twitter given by competition organizers. 1. Training set 2. Test set
-
-
+  
 # Our Submissions
 We develped the Machine learning , Deep learning and Ensemble methodology ( Max voting ) based classifiers for the English data for Sub-task A and B.
 
@@ -53,5 +51,5 @@ This notebook contains the code for reading the dataset,preprocessing of comment
 This notebook contains the code for reading the dataset,preprocessing of comments , Download Glove word embedding and generate embedding matrix for data, creating Bi-GRU model, training and predicting the labels of the test data for sub-task A.
 
 # Results
-  ###1.LSTM classifier achieves the highest macro average F1-score 0.5002  compare than our other classifiers and got 12th place in the Sub-task A leaderboard .
-  ###1.Ensemble classifier achieves the highest macro average F1-score 0.2426  compare than our other classifiers and got 9th place in the Sub-task B leaderboard .
+  ### LSTM classifier achieves the highest macro average F1-score 0.5002  compare than our other classifiers and got 12th place in the Sub-task A leaderboard .
+  ### Ensemble classifier achieves the highest macro average F1-score 0.2426  compare than our other classifiers and got 9th place in the Sub-task B leaderboard .
